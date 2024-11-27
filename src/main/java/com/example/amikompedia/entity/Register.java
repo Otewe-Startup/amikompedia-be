@@ -18,7 +18,7 @@ import lombok.Setter;
 public class Register {
 
     @Id
-    private String full_name;
+    private String fullName;
 
     private String email;
 
@@ -26,5 +26,5 @@ public class Register {
 
     private String password;
 
-    private String confirm_password;
+    private String confirmPassword;
 }
